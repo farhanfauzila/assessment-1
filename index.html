@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tebak Angka - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container home-container">
+        <header>
+            <h1>Game Tebak Angka</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="game.html">Main Game</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="home-content">
+            <section class="game-intro">
+                <h2>Selamat Datang di Game Tebak Angka!</h2>
+                <p>Game Tebak Angka adalah permainan sederhana namun mengasyikkan di mana kamu harus menebak angka yang dipilih secara acak oleh komputer.</p>
+                
+                <div class="feature-card">
+                    <h3>Cara Bermain</h3>
+                    <ol>
+                        <li>Komputer akan memilih angka acak antara 1 dan 100.</li>
+                        <li>Kamu harus menebak angka tersebut dengan memasukkan angka tebakanmu.</li>
+                        <li>Setelah menebak, komputer akan memberitahu apakah tebakanmu terlalu tinggi, terlalu rendah, atau tepat.</li>
+                        <li>Terus menebak sampai kamu menemukan angka yang benar!</li>
+                    </ol>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Fitur Game</h3>
+                    <ul>
+                        <li><strong>Sistem Skor</strong> - Mulai dengan skor 100, berkurang 5 poin setiap tebakan, dan bonus 20 poin jika tebakan benar.</li>
+                        <li><strong>Riwayat Tebakan</strong> - Semua tebakanmu akan disimpan dan ditampilkan, sehingga kamu bisa melacak apa yang sudah kamu coba.</li>
+                        <li><strong>Feedback Visual</strong> - Warna dan pesan yang jelas untuk membantu strategi tebakanmu.</li>
+                        <li><strong>Mulai Baru</strong> - Kamu bisa memulai permainan baru kapan saja.</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Tips dan Strategi</h3>
+                    <ul>
+                        <li>Gunakan pendekatan <strong>binary search</strong> - mulailah dengan menebak di tengah (50) kemudian sesuaikan tebakan selanjutnya berdasarkan apakah terlalu tinggi atau terlalu rendah.</li>
+                        <li>Perhatikan rentang angka yang tersisa setelah setiap tebakan.</li>
+                        <li>Cobalah untuk menebak angka yang tepat dengan sesedikit mungkin percobaan untuk mendapatkan skor tertinggi!</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="cta-section">
+                <h2>Siap Bermain?</h2>
+                <p>Uji kemampuan logika dan instingmu sekarang!</p>
+                <a href="game.html" class="play-btn">Main Sekarang</a>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Game Tebak Angka - Dibuat untuk tugas Universitas Ary Ginanjar</p>
+        </footer>
+    </div>
+</body>
+</html>

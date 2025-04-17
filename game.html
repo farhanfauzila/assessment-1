@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tebak Angka - Play</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container game-container">
+        <header>
+            <h1>Game Tebak Angka</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="game.html">Main Game</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="game-content">
+            <p class="game-instruction">Komputer telah memilih angka acak antara 1 dan 100. Bisakah kamu menebaknya?</p>
+            
+            <div class="game-area">
+                <div class="input-area">
+                    <input type="number" id="guess-input" min="1" max="100" placeholder="Masukkan tebakan">
+                    <button id="guess-btn">Tebak</button>
+                </div>
+                
+                <div id="feedback" class="feedback">Tebak angka antara 1-100!</div>
+                
+                <div class="score-area">
+                    <div>Skor: <span id="score">100</span></div>
+                    <div>Percobaan: <span id="attempts">0</span></div>
+                </div>
+                
+                <div class="history">
+                    <h3>Riwayat Tebakan</h3>
+                    <ul id="history-list" class="history-list"></ul>
+                </div>
+                
+                <button id="reset-btn" class="reset-btn">Mulai Baru</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Game Tebak Angka - Dibuat untuk tugas Universitas Ary Ginanjar</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
